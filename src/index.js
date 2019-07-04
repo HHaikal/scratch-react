@@ -1,12 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-function Index() {
-    return (
-        <h1>
-            Hello
-        </h1>
-    )
-}
+// Components
+import App from './app'
 
-ReactDOM.render(<Index/>, document.getElementById("root"))
+ReactDOM.render(<App name="testing" />, document.getElementById("root"))
