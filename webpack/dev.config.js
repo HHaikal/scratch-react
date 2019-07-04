@@ -2,7 +2,7 @@ const merge = require('webpack-merge')
 const base = require('./base.config.js')
 
 module.exports = merge(base, {
-    devtool: "eval-source-map",
+    devtool: "cheap-module-eval-source-map",
 
     devServer: {
         inline: true,
